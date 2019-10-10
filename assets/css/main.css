@@ -1,6 +1,7 @@
 body{
     background: #eceef2;
     padding-top: 80px;
+    font-family: 'Open Sans', sans-serif;
 }
 header{
     background: white;
@@ -27,6 +28,94 @@ main{
         height: calc(100vh - 80px);
         color: white;
     }
+        main aside .scroll{
+            position: relative;
+            overflow: auto;
+            height: 100%;
+            padding: 35px 0;
+        }
+        main aside .scroll::-webkit-scrollbar {
+            width: 5px;
+            height: 5px;
+        }
+        main aside .scroll::-webkit-scrollbar-button {
+            width: 0px;
+            height: 0px;
+        }
+        main aside .scroll::-webkit-scrollbar-thumb {
+            background: #00bfe8;
+            border: 0px none #ffffff;
+        }
+        main aside .scroll::-webkit-scrollbar-track {
+            background: #2a3344;
+            border: 0px none #ffffff;
+        }
+        main aside .scroll::-webkit-scrollbar-corner {
+            background: transparent;
+        }
+        main aside .profile{
+            padding: 0 35px 25px;
+            height: 90px;
+            display: flex;
+            align-items: center;
+        }
+            main aside .profile .image{
+                margin-right: 15px;
+            }
+            main aside .profile img{
+                width: 65px;
+                border-radius: 50%;
+            }
+            main aside .profile h2{
+                font-size: 1.4em;
+                margin: 0;
+            }
+            main aside .profile span{
+                color: #b0bec5;
+            }
+        main aside ul{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        main aside a{
+            color: #b0bec5;
+            font-size: 1em;
+            display: block;
+            border-left: 5px solid transparent;
+            padding: 15px 25px;
+            transition: all .3s;
+        }
+        main aside a.active,
+        main aside ul a:hover{
+            text-decoration: none;
+            color: #b0bec5;
+            background: #2a3344;
+            border-color: #00bfe8;
+        }
+        main aside ul.secondary a{
+            padding: 5px 25px;
+        }
+            main aside a .badge{
+                float: right;
+                padding: 5px 15px;
+                border-radius: 30px;
+                font-weight: 400;
+                margin: 2px 0;
+            }
+            main aside a i{
+                width: 30px;
+                margin-right: 5px;
+                text-align: center;
+                font-size: 1.3em;
+                line-height: 1em;
+            }
+        main aside hr{
+            border-color: #555f72;
+            width: calc(100% - 55px);
+            margin-left: auto;
+            margin-right: auto;
+        }
     main section{
         width: calc(100% - 315px);
     }

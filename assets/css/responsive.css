@@ -1,0 +1,39 @@
+@media (max-width: 1200px) {
+    
+}
+@media (max-width: 991px) {
+    body{
+        padding-top: 60px;
+    }
+    header{
+        height: 60px;
+    }
+    header .logo{
+        width: 80px;
+        background-size: 45px 45px;
+    }
+    main{
+        display: block;
+    }
+    main aside{
+        height: calc(100vh - 60px);
+        width: 90%;
+        max-width: 350px;
+        position: fixed;
+        margin-left: -350px;
+        transition: all .3s;
+        top: 60px;
+    }
+    main aside.active{
+        margin-left: 0;
+    }
+}
+@media (max-width: 768px) {
+    
+}
+@media (max-width: 500px) {
+    
+}
+@media (max-width: 350px) {
+
+}
