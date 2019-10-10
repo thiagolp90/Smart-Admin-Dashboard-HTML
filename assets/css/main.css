@@ -10,13 +10,34 @@ header{
     height: 80px;
     z-index: 100;
     top: 0;
+    display: flex;
 }
     header .logo{
         background: url(../img/logo.png) center center no-repeat #00bfe8;
         background-size: 60px 60px;
-        float: left;
         width: 315px;
         height: 100%;
+    }
+    header a{
+        color: #b0bec5;
+        transition: all .3s;
+    }
+    header a:hover{
+        color: #00bfe8;
+        text-decoration: none;
+    }
+    header i{
+        font-size: 1.4em;
+        margin: 14px;
+    }
+    header .left{
+        height: 100%;
+        padding: 15px 30px;
+        flex-grow: 3;
+    }
+    header .right{
+        height: 100%;
+        padding: 15px 30px;
     }
 main{
     display: flex;
@@ -27,7 +48,11 @@ main{
         width: 315px;
         height: calc(100vh - 80px);
         color: white;
+        transition: all .3s;
     }
+        main aside.hidden{
+            margin-left: -315px;
+        }
         main aside .scroll{
             position: relative;
             overflow: auto;
@@ -118,4 +143,9 @@ main{
         }
     main section{
         width: calc(100% - 315px);
+        transition: all .3s;
+        padding: 30px;
+    }
+    main section.full{
+        width: 100%;
     }

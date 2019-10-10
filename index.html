@@ -4,6 +4,8 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="msapplication-TileColor" content="#00bfe8">
+<meta name="theme-color" content="#00bfe8">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap">
 <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
 <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.min.css">
@@ -14,6 +16,14 @@
 <body>
     <header>
         <div class="logo"></div>
+        <div class="left">
+            <a href="javascript:;" class="menu"><i class="fas fa-bars"></i></a>
+            <a href="javascript:;"><i class="fas fa-search"></i></a>
+        </div>
+        <div class="right">
+            <a href="javascript:;"><i class="fas fa-cog"></i></a>
+            <a href="javascript:;"><i class="fas fa-sign-out-alt"></i></a>
+        </div>
     </header>
     <main>
         <aside>
@@ -29,10 +39,10 @@
                 </div>
                 <ul>
                     <li><a href="index.html" class="active"><i class="fas fa-home"></i> Dashboard</a></li>
-                    <li><a href="list.html"><i class="far fa-comment-dots"></i> Messages <span class="badge badge-info">32</span></a></li>
-                    <li><a href="list.html"><i class="fas fa-flask"></i> UI Elements</a></li>
-                    <li><a href="list.html"><i class="fas fa-chart-pie"></i> Charts</a></li>
-                    <li><a href="list.html"><i class="far fa-calendar-alt"></i> Calendar</a></li>
+                    <li><a href="index.html"><i class="far fa-comment-dots"></i> Messages <span class="badge badge-info">32</span></a></li>
+                    <li><a href="index.html"><i class="fas fa-flask"></i> UI Elements</a></li>
+                    <li><a href="index.html"><i class="fas fa-chart-pie"></i> Charts</a></li>
+                    <li><a href="index.html"><i class="far fa-calendar-alt"></i> Calendar</a></li>
                 </ul>
                 <hr>
                 <ul class="secondary">
@@ -46,7 +56,8 @@
     
         </section>
     </main>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="assets/js/main.js"></script>
 </body>
 </html>

@@ -18,14 +18,20 @@
     main aside{
         height: calc(100vh - 60px);
         width: 90%;
-        max-width: 350px;
+        max-width: 315px;
         position: fixed;
-        margin-left: -350px;
-        transition: all .3s;
+        margin-left: -315px;
         top: 60px;
     }
     main aside.active{
         margin-left: 0;
+    }
+    header .left,
+    header .right{
+        padding: 5px 10px;
+    }
+    header i {
+        margin: 14px 7px;
     }
 }
 @media (max-width: 768px) {
