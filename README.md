@@ -2,6 +2,9 @@
 
 HTML version for [Smart Admin Dashboard](https://dribbble.com/shots/2041516-Smart-Admin-Dashboard) by [Mushfiq](https://dribbble.com/mushfiqsCreation).
 
+### Demo
+
+* [Click here](http://developes.fr/demo/smart-admin-dashboard-html/)
 
 ### Prerequisites
 
