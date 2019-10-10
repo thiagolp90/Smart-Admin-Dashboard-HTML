@@ -1,0 +1,11 @@
+{
+  "name": "smart-admin-dashboard-html",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/thiagolp90/Smart-Admin-Dashboard-HTML.git",
+  "author": "Thiago Lopes <thiagolp.90@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^4.3.1"
+  }
+}
