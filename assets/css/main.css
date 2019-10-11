@@ -59,7 +59,7 @@ main{
             position: relative;
             overflow: auto;
             height: 100%;
-            padding: 35px 0;
+            padding: 35px 0 100px;
         }
         main aside .scroll::-webkit-scrollbar {
             width: 5px;
